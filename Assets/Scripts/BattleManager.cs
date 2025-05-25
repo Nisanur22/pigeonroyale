@@ -11,6 +11,14 @@ public class BattleManager : MonoBehaviour
     public Button attackButton;
     public Button skill1Button;
 
+    [Header("Hit Bar System")]
+    public GameObject hitBarPanel;
+    public RectTransform hitBarArea;
+    public RectTransform hitBarLine;
+    public float hitBarSpeed = 1f;
+    public float criticalZoneSize = 0.2f;
+    public float successZoneSize = 0.4f;
+
     private int currentPlayerTurn = 0; // 0: Player1, 1: Player2
     private int[] playerHealth = new int[2];
     private int maxHealth = 100;
@@ -21,6 +29,13 @@ public class BattleManager : MonoBehaviour
 
     Animator player1Animator;
     Animator player2Animator;
+
+    private bool isHitBarActive = false;
+    private float currentLinePos = 0f;
+    private int pendingAttackType = 0; // 0: attack, 1: skill1
+    private float hitBarDirection = 1f; // 1: sağa, -1: sola
+
+    private int[] criticalCount = new int[2]; // Her oyuncu için kritik sayısı
 
     void Start()
     {
@@ -81,46 +96,160 @@ public class BattleManager : MonoBehaviour
     public void OnAttackButton()
     {
         if (battleEnded) return;
-        int target = (currentPlayerTurn == 0) ? 1 : 0;
-        int damage = 20;
-        playerHealth[target] -= damage;
-        if (playerHealth[target] < 0) playerHealth[target] = 0;
-        UpdateHealthBars();
-
-        // Animasyon tetikle
-        if (currentPlayerTurn == 0)
-            player1Animator.SetTrigger("attack");
-        else
-            player2Animator.SetTrigger("attack");
-
-        CheckBattleEnd();
-        if (!battleEnded) NextTurn();
+        pendingAttackType = 0;
+        StartHitBar();
+        EnableActionButtons(false);
     }
 
     public void OnSkill1Button()
     {
         if (battleEnded) return;
+        if (!skill1Button.interactable) return; // Skill açılmadıysa kullanılamaz
+        pendingAttackType = 1;
+        StartHitBar();
+        EnableActionButtons(false);
+        criticalCount[currentPlayerTurn] = 0; // Skill kullanınca sayaç sıfırlanır
+        skill1Button.interactable = false; // Skill tekrar pasif olur
+    }
+
+    void StartHitBar()
+    {
+        isHitBarActive = true;
+        hitBarPanel.SetActive(true);
+        currentLinePos = 0f;
+        hitBarDirection = 1f; // Her seferinde sağa başlasın
+        UpdateHitBarLine(0f);
+    }
+
+    void EndHitBar()
+    {
+        isHitBarActive = false;
+        hitBarPanel.SetActive(false);
+
         int target = (currentPlayerTurn == 0) ? 1 : 0;
-        int damage = 30;
-        playerHealth[target] -= damage;
-        if (playerHealth[target] < 0) playerHealth[target] = 0;
+        int attackerIndex = currentPlayerTurn;
+        var gm = GameManager.Instance;
+        var attackerData = gm.pigeons[gm.players[attackerIndex].selectedCharacterIndex];
+
+        if (pendingAttackType == 0)
+        {
+            // Attack
+            int damage = CalculateDamage();
+            playerHealth[target] -= damage;
+            if (playerHealth[target] < 0) playerHealth[target] = 0;
+        }
+        else
+        {
+            // Skill
+            if (attackerData.skillType == SkillType.Heal)
+            {
+                // Sebap kuşu: kendine can bas
+                playerHealth[attackerIndex] += CalculateSkillEffect();
+                if (playerHealth[attackerIndex] > attackerData.maxHealth)
+                    playerHealth[attackerIndex] = attackerData.maxHealth;
+            }
+            else
+            {
+                // Diğer kuşlar: hasar ver
+                int damage = CalculateSkillEffect();
+                playerHealth[target] -= damage;
+                if (playerHealth[target] < 0) playerHealth[target] = 0;
+            }
+        }
+
         UpdateHealthBars();
 
-        // Animasyon tetikle
-        if (currentPlayerTurn == 0)
-            player1Animator.SetTrigger("skill1");
+        // Animasyon tetikle (mevcut kodun aynısı)
+        if (pendingAttackType == 0)
+        {
+            if (currentPlayerTurn == 0)
+                player1Animator.SetTrigger("attack");
+            else
+                player2Animator.SetTrigger("attack");
+        }
         else
-            player2Animator.SetTrigger("skill1");
+        {
+            if (currentPlayerTurn == 0)
+                player1Animator.SetTrigger("skill1");
+            else
+                player2Animator.SetTrigger("skill1");
+        }
 
         CheckBattleEnd();
         if (!battleEnded) NextTurn();
+    }
+
+    void UpdateHitBarLine(float value)
+    {
+        float width = hitBarArea.rect.width;
+        Vector2 anchoredPos = hitBarLine.anchoredPosition;
+        anchoredPos.x = (value - 0.5f) * width;
+        hitBarLine.anchoredPosition = anchoredPos;
+    }
+
+    int CalculateDamage()
+    {
+        float value = currentLinePos;
+        int attackerIndex = currentPlayerTurn;
+        var gm = GameManager.Instance;
+        var attackerData = gm.pigeons[gm.players[attackerIndex].selectedCharacterIndex];
+
+        int baseDamage = attackerData.attackPower;
+
+        // Kritik (yeşil)
+        if (value > 0.5f - criticalZoneSize / 2f && value < 0.5f + criticalZoneSize / 2f)
+        {
+            criticalCount[attackerIndex]++;
+            if (criticalCount[attackerIndex] >= 2)
+                skill1Button.interactable = true; // Skill açılır
+            return Mathf.RoundToInt(baseDamage * 1.5f);
+        }
+        // Başarılı (sarı)
+        else if ((value > 0.5f - successZoneSize / 2f && value < 0.5f - criticalZoneSize / 2f) ||
+                 (value > 0.5f + criticalZoneSize / 2f && value < 0.5f + successZoneSize / 2f))
+        {
+            return baseDamage;
+        }
+        // Başarısız (turuncu/kırmızı)
+        else
+        {
+            return 0;
+        }
+    }
+
+    int CalculateSkillEffect()
+    {
+        int attackerIndex = currentPlayerTurn;
+        var gm = GameManager.Instance;
+        var attackerData = gm.pigeons[gm.players[attackerIndex].selectedCharacterIndex];
+
+        if (attackerData.skillType == SkillType.Heal)
+        {
+            // Sebap kuşu: kendine can basacak
+            return attackerData.skillPower;
+        }
+        else
+        {
+            // Diğer kuşlar: hasar verecek
+            float value = currentLinePos;
+            int baseDamage = attackerData.skillPower;
+
+            if (value > 0.5f - criticalZoneSize / 2f && value < 0.5f + criticalZoneSize / 2f)
+                return Mathf.RoundToInt(baseDamage * 1.5f);
+            else if ((value > 0.5f - successZoneSize / 2f && value < 0.5f - criticalZoneSize / 2f) ||
+                     (value > 0.5f + criticalZoneSize / 2f && value < 0.5f + successZoneSize / 2f))
+                return baseDamage;
+            else
+                return 0;
+        }
     }
 
     void NextTurn()
     {
         currentPlayerTurn = 1 - currentPlayerTurn;
         UpdateTurnIndicator();
-        EnableActionButtons(true);
+        attackButton.interactable = true;
+        skill1Button.interactable = (criticalCount[currentPlayerTurn] >= 2);
     }
 
     void UpdateTurnIndicator()
@@ -130,8 +259,10 @@ public class BattleManager : MonoBehaviour
 
     void UpdateHealthBars()
     {
+
         player1HealthBar.value = playerHealth[0];
         player2HealthBar.value = playerHealth[1];
+        
     }
 
     void CheckBattleEnd()
@@ -153,5 +284,32 @@ public class BattleManager : MonoBehaviour
     {
         attackButton.interactable = enable;
         skill1Button.interactable = enable;
+    }
+
+    void Update()
+    {
+        if (isHitBarActive)
+        {
+            currentLinePos += Time.deltaTime * hitBarSpeed * hitBarDirection;
+
+            // Sınırları kontrol et ve yönü ters çevir
+            if (currentLinePos > 1f)
+            {
+                currentLinePos = 1f;
+                hitBarDirection = -1f;
+            }
+            else if (currentLinePos < 0f)
+            {
+                currentLinePos = 0f;
+                hitBarDirection = 1f;
+            }
+
+            UpdateHitBarLine(currentLinePos);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                EndHitBar();
+            }
+        }
     }
 } 
