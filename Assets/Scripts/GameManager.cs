@@ -55,6 +55,9 @@ public class GameManager : MonoBehaviour
     public GameObject characterSelectionPanel;
     public GameObject battlePanel;
     public GameObject gameOverPanel;
+    [Header("End Game UI")]
+    public GameObject endGamePanel;
+    public Text gameOverText;
 
     public bool[] isPlayerReady = new bool[2];
 
@@ -148,9 +151,18 @@ public class GameManager : MonoBehaviour
         players[1].health = players[1].maxHealth;
     }
 
+    public void ShowGameOver(string winnerText)
+    {
+        SetGameState(GameState.GameOver);
+        if (endGamePanel != null) endGamePanel.SetActive(true);
+        if (gameOverText != null) gameOverText.text = winnerText;
+    }
+
     private void ShowGameResults()
     {
         // Oyun sonu ekranını güncelle
+        if (endGamePanel != null) endGamePanel.SetActive(true);
+        if (gameOverText != null) gameOverText.text = "Game Over";
     }
 
     private void ResetGame()
@@ -207,6 +219,11 @@ public class GameManager : MonoBehaviour
         {
             SetGameState(GameState.Battle);
         }
+    }
+
+    public void OnQuitButtonClicked()
+    {
+        Application.Quit();
     }
 }
 

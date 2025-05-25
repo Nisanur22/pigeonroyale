@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class BattleManager : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class BattleManager : MonoBehaviour
     public float hitBarSpeed = 1f;
     public float criticalZoneSize = 0.2f;
     public float successZoneSize = 0.4f;
+
+    [Header("End Game UI")]
+    public GameObject endGamePanel;
+    public Text gameOverText;
 
     private int currentPlayerTurn = 0; // 0: Player1, 1: Player2
     private int[] playerHealth = new int[2];
@@ -201,7 +206,7 @@ public class BattleManager : MonoBehaviour
         {
             criticalCount[attackerIndex]++;
             if (criticalCount[attackerIndex] >= 2)
-                skill1Button.interactable = true; // Skill açılır
+                skill1Button.interactable = true;
             return Mathf.RoundToInt(baseDamage * 1.5f);
         }
         // Başarılı (sarı)
@@ -259,10 +264,8 @@ public class BattleManager : MonoBehaviour
 
     void UpdateHealthBars()
     {
-
         player1HealthBar.value = playerHealth[0];
         player2HealthBar.value = playerHealth[1];
-        
     }
 
     void CheckBattleEnd()
@@ -271,12 +274,22 @@ public class BattleManager : MonoBehaviour
         {
             battleEnded = true;
             EnableActionButtons(false);
+
+            // Die animasyonunu tetikle
+            if (playerHealth[0] <= 0)
+                player1Animator.SetTrigger("die");
+            if (playerHealth[1] <= 0)
+                player2Animator.SetTrigger("die");
+
+            string resultText = "Game Over";
             if (playerHealth[0] <= 0 && playerHealth[1] <= 0)
-                turnIndicatorText.text = "Berabere!";
+                resultText = "Berabere!";
             else if (playerHealth[0] <= 0)
-                turnIndicatorText.text = "2. Oyuncu Kazandı!";
+                resultText = "2. Oyuncu Kazandı!";
             else
-                turnIndicatorText.text = "1. Oyuncu Kazandı!";
+                resultText = "1. Oyuncu Kazandı!";
+
+            GameManager.Instance.ShowGameOver(resultText);
         }
     }
 
