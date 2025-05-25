@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: da4d1a1d34076d641ac363584ca3357f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 24
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638837239722777925
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: 1attack.sebap_Frame_0
+    originalName: 
+    pivot: {x: -2.4594595, y: -0.51282054}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 333
+      width: 37
+      height: 39
+    spriteID: db32f880975ed48489cfdfd7422688ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 333}
+  - name: 1attack.sebap_Frame_1
+    originalName: 
+    pivot: {x: -2.4324324, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 380
+      width: 37
+      height: 39
+    spriteID: 4670f147490abb54384d3cf2322780bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 380}
+  - name: 1attack.sebap_Frame_2
+    originalName: 
+    pivot: {x: -2.4054053, y: -0.71794873}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 427
+      width: 37
+      height: 39
+    spriteID: c8c451e99dd21154e864757ded7f38b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 427}
+  - name: 1attack.sebap_Frame_3
+    originalName: 
+    pivot: {x: -2.4054053, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 98
+      width: 37
+      height: 39
+    spriteID: 8986773baffac7f40acbde4f3b8b5f94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 98}
+  - name: 1attack.sebap_Frame_4
+    originalName: 
+    pivot: {x: -2.3783782, y: -0.51282054}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 145
+      width: 37
+      height: 39
+    spriteID: a922dc94f76c6ef4c99eaad9de85fd81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 145}
+  - name: 1attack.sebap_Frame_5
+    originalName: 
+    pivot: {x: -2.3783782, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 192
+      width: 37
+      height: 39
+    spriteID: 4065cbdb35f658848b130be1296b3160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 192}
+  - name: 1attack.sebap_Frame_6
+    originalName: 
+    pivot: {x: -2.289474, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 380
+      width: 38
+      height: 39
+    spriteID: d01f6c217caf1c44fa7a3d46468c33fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 380}
+  - name: 1attack.sebap_Frame_7
+    originalName: 
+    pivot: {x: -2.289474, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 427
+      width: 38
+      height: 39
+    spriteID: 438a0ae999c068047914f57cd3a87d36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 427}
+  - name: 1attack.sebap_Frame_8
+    originalName: 
+    pivot: {x: -2.289474, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 239
+      width: 38
+      height: 39
+    spriteID: 8074c462cf5501547b724e8f10e26f2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 239}
+  - name: 1attack.sebap_Frame_9
+    originalName: 
+    pivot: {x: -2.289474, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 286
+      width: 38
+      height: 39
+    spriteID: e99ca5b83de0acf438a6fd5555449991
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 286}
+  - name: 1attack.sebap_Frame_10
+    originalName: 
+    pivot: {x: -2.125, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 286
+      width: 40
+      height: 39
+    spriteID: 4b2c85bc6a8a54d44b5494dfd8f56566
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 286}
+  - name: 1attack.sebap_Frame_11
+    originalName: 
+    pivot: {x: -2.125, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 333
+      width: 40
+      height: 39
+    spriteID: d68d9d13109f04342a6eb9ee9c0ac594
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 333}
+  - name: 1attack.sebap_Frame_12
+    originalName: 
+    pivot: {x: -1.9069769, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 4
+      width: 43
+      height: 39
+    spriteID: 3685641a96dc2d04d9b30a7359508c68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 4}
+  - name: 1attack.sebap_Frame_13
+    originalName: 
+    pivot: {x: -1.4509803, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 192
+      width: 51
+      height: 39
+    spriteID: 973b2355975f41b4f92296b82e2d78a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 192}
+  - name: 1attack.sebap_Frame_14
+    originalName: 
+    pivot: {x: -1.1929823, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 239
+      width: 57
+      height: 39
+    spriteID: 142a59f157331084983722613f682ea2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 239}
+  - name: 1attack.sebap_Frame_15
+    originalName: 
+    pivot: {x: -0.8656715, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 192
+      width: 67
+      height: 39
+    spriteID: 1dbc8dcd9fea8d64fbc8c827d487bea5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 192}
+  - name: 1attack.sebap_Frame_16
+    originalName: 
+    pivot: {x: -0.52439016, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 51
+      width: 82
+      height: 39
+    spriteID: c9cf753fbbefa36478bc0bce476fe15f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 51}
+  - name: 1attack.sebap_Frame_17
+    originalName: 
+    pivot: {x: -0.15740748, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 145
+      width: 108
+      height: 39
+    spriteID: 211507323afd57a4681a6cf1a1c36d1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 145}
+  - name: 1attack.sebap_Frame_18
+    originalName: 
+    pivot: {x: 0.007936538, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 98
+      width: 126
+      height: 39
+    spriteID: ff4ed58cfbfa7f94782fd65e6669ad93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 98}
+  - name: 1attack.sebap_Frame_19
+    originalName: 
+    pivot: {x: 0.17763157, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 51
+      width: 152
+      height: 39
+    spriteID: b036979118c3467429aaa6f88cb6f386
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 51}
+  - name: 1attack.sebap_Frame_20
+    originalName: 
+    pivot: {x: 0.3351064, y: -0.4871795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 188
+      height: 39
+    spriteID: 5c3257a05449a29469c2fffba2caeaf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1131133192
+    name: 1attack.sebap
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: 1attack.sebap_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 251
+        y: 20
+        width: 37
+        height: 39
+      spriteId: db32f880975ed48489cfdfd7422688ad
+    - name: 1attack.sebap_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 250
+        y: 24
+        width: 37
+        height: 39
+      spriteId: 4670f147490abb54384d3cf2322780bc
+    - name: 1attack.sebap_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 249
+        y: 28
+        width: 37
+        height: 39
+      spriteId: c8c451e99dd21154e864757ded7f38b8
+    - name: 1attack.sebap_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 249
+        y: 26
+        width: 37
+        height: 39
+      spriteId: 8986773baffac7f40acbde4f3b8b5f94
+    - name: 1attack.sebap_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 248
+        y: 20
+        width: 37
+        height: 39
+      spriteId: a922dc94f76c6ef4c99eaad9de85fd81
+    - name: 1attack.sebap_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 248
+        y: 19
+        width: 37
+        height: 39
+      spriteId: 4065cbdb35f658848b130be1296b3160
+    - name: 1attack.sebap_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 247
+        y: 19
+        width: 38
+        height: 39
+      spriteId: d01f6c217caf1c44fa7a3d46468c33fa
+    - name: 1attack.sebap_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 247
+        y: 19
+        width: 38
+        height: 39
+      spriteId: 438a0ae999c068047914f57cd3a87d36
+    - name: 1attack.sebap_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 247
+        y: 19
+        width: 38
+        height: 39
+      spriteId: 8074c462cf5501547b724e8f10e26f2f
+    - name: 1attack.sebap_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 247
+        y: 19
+        width: 38
+        height: 39
+      spriteId: e99ca5b83de0acf438a6fd5555449991
+    - name: 1attack.sebap_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 245
+        y: 19
+        width: 40
+        height: 39
+      spriteId: 4b2c85bc6a8a54d44b5494dfd8f56566
+    - name: 1attack.sebap_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 245
+        y: 19
+        width: 40
+        height: 39
+      spriteId: d68d9d13109f04342a6eb9ee9c0ac594
+    - name: 1attack.sebap_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 242
+        y: 19
+        width: 43
+        height: 39
+      spriteId: 3685641a96dc2d04d9b30a7359508c68
+    - name: 1attack.sebap_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 234
+        y: 19
+        width: 51
+        height: 39
+      spriteId: 973b2355975f41b4f92296b82e2d78a3
+    - name: 1attack.sebap_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 228
+        y: 19
+        width: 57
+        height: 39
+      spriteId: 142a59f157331084983722613f682ea2
+    - name: 1attack.sebap_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 218
+        y: 19
+        width: 67
+        height: 39
+      spriteId: 1dbc8dcd9fea8d64fbc8c827d487bea5
+    - name: 1attack.sebap_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 203
+        y: 19
+        width: 82
+        height: 39
+      spriteId: c9cf753fbbefa36478bc0bce476fe15f
+    - name: 1attack.sebap_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 177
+        y: 19
+        width: 108
+        height: 39
+      spriteId: 211507323afd57a4681a6cf1a1c36d1e
+    - name: 1attack.sebap_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 159
+        y: 19
+        width: 126
+        height: 39
+      spriteId: ff4ed58cfbfa7f94782fd65e6669ad93
+    - name: 1attack.sebap_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 133
+        y: 19
+        width: 152
+        height: 39
+      spriteId: b036979118c3467429aaa6f88cb6f386
+    - name: 1attack.sebap_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 97
+        y: 19
+        width: 188
+        height: 39
+      spriteId: 5c3257a05449a29469c2fffba2caeaf4
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 180}

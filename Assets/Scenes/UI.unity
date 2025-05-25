@@ -501,6 +501,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40920963}
   m_CullTransparentMesh: 1
+--- !u!1 &42825677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42825679}
+  - component: {fileID: 42825680}
+  m_Layer: 0
+  m_Name: ArenaBackgroundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42825679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42825677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8962823, y: -0.40809128, z: -8.971899}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42825680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42825677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e557ed49922bd964cad1963f1504d065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 1330844188}
+  arenaBackgrounds:
+  - {fileID: 5409468356673663098, guid: c57c853f9f0a4044dad2bdcc63a5f5af, type: 3}
+  - {fileID: 4967597782178192432, guid: fb5c47e52c3b0d44c8f62c533ecc0174, type: 3}
+  - {fileID: -7645304408676709774, guid: ae2552a25fbc19946ab79ddd7a6387b7, type: 3}
 --- !u!1 &82958857
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +716,7 @@ GameObject:
   - component: {fileID: 246012022}
   - component: {fileID: 246012021}
   - component: {fileID: 246012020}
+  - component: {fileID: 246012023}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -692,7 +742,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &246012020
 MonoBehaviour:
@@ -770,8 +820,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -5705080245474353204, guid: 77944688e8271804cb4b9a41398377cf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -788,6 +838,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246012018}
   m_CullTransparentMesh: 1
+--- !u!114 &246012023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246012018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bba1791407734db125dd28ef198d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pigeonImage: {fileID: 246012021}
+  pigeonNameText: {fileID: 724162375}
 --- !u!1 &293337664
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +865,7 @@ GameObject:
   m_Layer: 7
   m_Name: 'Player2Area '
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1040,6 +1104,7 @@ GameObject:
   - component: {fileID: 319074456}
   - component: {fileID: 319074455}
   - component: {fileID: 319074454}
+  - component: {fileID: 319074457}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -1065,7 +1130,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &319074454
 MonoBehaviour:
@@ -1143,8 +1208,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1537647984511868541, guid: ec452f438ab34454e9899350ba4aeb66, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1161,6 +1226,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319074452}
   m_CullTransparentMesh: 1
+--- !u!114 &319074457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319074452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bba1791407734db125dd28ef198d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pigeonImage: {fileID: 319074455}
+  pigeonNameText: {fileID: 760337519}
 --- !u!1 &332342492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,7 +1564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9063121063329028513, guid: b41b4d3d663b589419c7290a862a4aef, type: 3}
+  m_Sprite: {fileID: -1157774879685807108, guid: 5eceed900c0c4fc42b5cb48d83b01c38, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1678,6 +1757,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 42825680}
+        m_TargetAssemblyTypeName: ArenaBackgroundManager, Assembly-CSharp
+        m_MethodName: SetArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1061912176}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: OnArenaSelected
@@ -1703,15 +1794,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.041103493, g: 0.32782224, b: 0.94716984, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 4967597782178192432, guid: fb5c47e52c3b0d44c8f62c533ecc0174, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2106,6 +2197,8 @@ GameObject:
   - component: {fileID: 588374892}
   - component: {fileID: 588374891}
   - component: {fileID: 588374890}
+  - component: {fileID: 588374893}
+  - component: {fileID: 588374894}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -2131,7 +2224,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &588374890
 MonoBehaviour:
@@ -2209,8 +2302,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1673970932556768169, guid: 8fd9db6052f5cac4b9b7beb774c806db, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2227,6 +2320,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588374888}
   m_CullTransparentMesh: 1
+--- !u!114 &588374893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588374888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bba1791407734db125dd28ef198d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pigeonImage: {fileID: 588374891}
+  pigeonNameText: {fileID: 1836071003}
+--- !u!114 &588374894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588374888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bba1791407734db125dd28ef198d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pigeonImage: {fileID: 588374891}
+  pigeonNameText: {fileID: 1836071003}
 --- !u!1 &687607270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,8 +2563,8 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_FontStyle: 1
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -2452,7 +2573,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: Sebap
 --- !u!222 &724162376
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2533,7 +2654,6 @@ RectTransform:
   - {fileID: 547179008}
   - {fileID: 1254521384}
   - {fileID: 1321831882}
-  - {fileID: 1350423242}
   m_Father: {fileID: 765030234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2597,6 +2717,7 @@ GameObject:
   - component: {fileID: 748769521}
   - component: {fileID: 748769520}
   - component: {fileID: 748769519}
+  - component: {fileID: 748769522}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -2622,7 +2743,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748769519
 MonoBehaviour:
@@ -2700,8 +2821,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -6810630460480048047, guid: 1820424ced994d145bd3952b0bf329e4, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2718,6 +2839,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748769517}
   m_CullTransparentMesh: 1
+--- !u!114 &748769522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748769517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bba1791407734db125dd28ef198d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pigeonImage: {fileID: 748769520}
+  pigeonNameText: {fileID: 1082067533}
 --- !u!1 &757993017
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,8 +2992,8 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_FontStyle: 1
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -2867,9 +3002,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '6
-
-'
+  m_Text: "M\u0131s\u0131ri\n"
 --- !u!222 &760337520
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3542,6 +3675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05602a6fd3a5364d92cb3e30cda121e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedArenaIndex: 0
   players:
   - selectedCharacterIndex: 0
     selectedCharacterIndex2: 0
@@ -3558,13 +3692,28 @@ MonoBehaviour:
   pigeons:
   - pigeonName: donek
     maxHealth: 500
-    pigeonPrefab: {fileID: 6789550015995668621, guid: 4d5854ed6f2d3ff45b140b5e66fa1dad, type: 3}
+    pigeonPrefabRight: {fileID: 6789550015995668621, guid: 4d5854ed6f2d3ff45b140b5e66fa1dad, type: 3}
+    pigeonPrefabLeft: {fileID: 3192889792912086245, guid: e72159f94df5baf4e8b1ac9064d4c155, type: 3}
   - pigeonName: taklaci
     maxHealth: 500
-    pigeonPrefab: {fileID: 8725400579066482495, guid: 9eb593c5fd273ae4386b7fd2878b8a93, type: 3}
+    pigeonPrefabRight: {fileID: 8725400579066482495, guid: 9eb593c5fd273ae4386b7fd2878b8a93, type: 3}
+    pigeonPrefabLeft: {fileID: 8926050909278678096, guid: 7691fd74ef2d557489f1985cef632713, type: 3}
   - pigeonName: posta
     maxHealth: 500
-    pigeonPrefab: {fileID: 5772817261175533448, guid: 06fac767c21625c4c9c98b6049d3a213, type: 3}
+    pigeonPrefabRight: {fileID: 5772817261175533448, guid: 06fac767c21625c4c9c98b6049d3a213, type: 3}
+    pigeonPrefabLeft: {fileID: 2601485259059048500, guid: 176c676b0d4039f4bbcb0bf806b6e2b1, type: 3}
+  - pigeonName: sebap
+    maxHealth: 500
+    pigeonPrefabRight: {fileID: 7138246944348897368, guid: 1486aae4e44403142abcdd5ea40fbaa0, type: 3}
+    pigeonPrefabLeft: {fileID: 4959748317627823668, guid: 5afd6d5c0868f9449aae52213b0d8dcc, type: 3}
+  - pigeonName: "ruzgarku\u015F"
+    maxHealth: 500
+    pigeonPrefabRight: {fileID: 3718959012565546002, guid: c45e91e60d944f340b795a22e6578642, type: 3}
+    pigeonPrefabLeft: {fileID: 2406701552324036951, guid: 518d06e59780d5a4f9991db2f43f8cea, type: 3}
+  - pigeonName: "m\u0131s\u0131ri"
+    maxHealth: 500
+    pigeonPrefabRight: {fileID: 4648285497031016973, guid: d623d1f052d0c564eaab4a55f0a4e91c, type: 3}
+    pigeonPrefabLeft: {fileID: 4557884057888655242, guid: b803745fffba9b044b99f6afd6dba01c, type: 3}
   mainMenuPanel: {fileID: 298299694}
   arenaSelectionPanel: {fileID: 384828227}
   characterSelectionPanel: {fileID: 736140380}
@@ -3647,7 +3796,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -3656,7 +3805,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: Sebap
 --- !u!222 &1082067534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3824,6 +3973,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 42825680}
+        m_TargetAssemblyTypeName: ArenaBackgroundManager, Assembly-CSharp
+        m_MethodName: SetArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1061912176}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: OnArenaSelected
@@ -3849,15 +4010,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.554717, g: 0.2960435, b: 0.07012459, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -7645304408676709774, guid: ae2552a25fbc19946ab79ddd7a6387b7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4339,8 +4500,8 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_FontStyle: 1
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -4349,7 +4510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: "M\u0131s\u0131ri"
 --- !u!222 &1214306809
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4370,6 +4531,7 @@ GameObject:
   - component: {fileID: 1254466298}
   - component: {fileID: 1254466297}
   - component: {fileID: 1254466296}
+  - component: {fileID: 1254466299}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -4395,7 +4557,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254466296
 MonoBehaviour:
@@ -4473,8 +4635,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8333705137595913242, guid: 13b54e54dab09fd468f54d83f4392e4d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4491,6 +4653,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254466294}
   m_CullTransparentMesh: 1
+--- !u!114 &1254466299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254466294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bba1791407734db125dd28ef198d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pigeonImage: {fileID: 1254466297}
+  pigeonNameText: {fileID: 1214306808}
 --- !u!1 &1254521383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4825,6 +5001,7 @@ RectTransform:
   - {fileID: 40920964}
   - {fileID: 1123650883}
   - {fileID: 1856041780}
+  - {fileID: 1350423242}
   - {fileID: 762486453}
   m_Father: {fileID: 736140383}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4987,7 +5164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3827610715148312880, guid: cf303adfa2d908643a8da1cc80f6905c, type: 3}
+  m_Sprite: {fileID: 9132722111676664830, guid: ef6bd735bba76df438e22c7de2ac255b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5069,7 +5246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4867924, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5120,17 +5297,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350423241}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 956773532}
-  m_Father: {fileID: 736140383}
+  m_Father: {fileID: 1321831882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: -560.00006, y: -189.99997}
   m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1350423243
@@ -5420,8 +5597,8 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_FontStyle: 1
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -5430,7 +5607,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5
+  m_Text: 'Ruzgarkus
+
+'
 --- !u!222 &1469994864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6606,6 +6785,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 42825680}
+        m_TargetAssemblyTypeName: ArenaBackgroundManager, Assembly-CSharp
+        m_MethodName: SetArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1061912176}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: OnArenaSelected
@@ -6631,15 +6822,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5471698, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 5409468356673663098, guid: c57c853f9f0a4044dad2bdcc63a5f5af, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6772,7 +6963,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6840371915404783722, guid: 6beca9c5b89ef0d449074692b63d3c42, type: 3}
+  m_Sprite: {fileID: -5297104560596819441, guid: 7b3f648807f5a8e4ba1f36bfafb7f420, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7379,8 +7570,8 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_FontStyle: 1
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -7389,7 +7580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5
+  m_Text: "R\xFCzgarku\u015F"
 --- !u!222 &1836071004
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7800,6 +7991,7 @@ GameObject:
   - component: {fileID: 1951339347}
   - component: {fileID: 1951339346}
   - component: {fileID: 1951339345}
+  - component: {fileID: 1951339348}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -7825,7 +8017,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1951339345
 MonoBehaviour:
@@ -7903,8 +8095,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 7375700581768248587, guid: 7fdcc4ef4b132a04082ed375090e2be6, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7921,6 +8113,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951339343}
   m_CullTransparentMesh: 1
+--- !u!114 &1951339348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951339343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bba1791407734db125dd28ef198d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pigeonImage: {fileID: 1951339346}
+  pigeonNameText: {fileID: 1469994863}
 --- !u!1 &1988381179
 GameObject:
   m_ObjectHideFlags: 0
@@ -8272,8 +8478,6 @@ MonoBehaviour:
   turnIndicatorText: {fileID: 1017085945}
   attackButton: {fileID: 1808076018}
   skill1Button: {fileID: 466114357}
-  skill2Button: {fileID: 1731806073}
-  skill3Button: {fileID: 2117237027}
 --- !u!4 &2069294470
 Transform:
   m_ObjectHideFlags: 0
@@ -8585,3 +8789,4 @@ SceneRoots:
   - {fileID: 2069294470}
   - {fileID: 1535071770}
   - {fileID: 293337665}
+  - {fileID: 42825679}

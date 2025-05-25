@@ -1,0 +1,1091 @@
+fileFormatVersion: 2
+guid: 0791b7c86e930b14fb6ca3e6b457711d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 24
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638837204947365734
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_0"
+    originalName: 
+    pivot: {x: -1.1818182, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 55
+      height: 50
+    spriteID: 05395b4a471ff374a807a1f4f6536445
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_1"
+    originalName: 
+    pivot: {x: -1.1851851, y: -0.30612245}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 274
+      y: 4
+      width: 54
+      height: 49
+    spriteID: 5b42e1f43854a324a8813af1620f7370
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 274, y: 4}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_2"
+    originalName: 
+    pivot: {x: -1.1538461, y: -0.3125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 114
+      width: 52
+      height: 48
+    spriteID: 8ff08255b04cac2469e820cd49a1283b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_3"
+    originalName: 
+    pivot: {x: -1.0784314, y: -0.31914896}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 114
+      width: 51
+      height: 47
+    spriteID: b8e472c3c4f91364091f0b07f8f72f6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_4"
+    originalName: 
+    pivot: {x: -1.0392156, y: -0.32608697}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 114
+      width: 51
+      height: 46
+    spriteID: ea4c7dc5c3294974b8298d6ca39f2c46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_5"
+    originalName: 
+    pivot: {x: -0.90000004, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 269
+      width: 50
+      height: 45
+    spriteID: ada72b7da41af0647a2b178bfc92b50c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 269}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_6"
+    originalName: 
+    pivot: {x: -0.7692308, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 217
+      width: 52
+      height: 44
+    spriteID: cc53b60df783319488dec9166a4e962c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 217}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_7"
+    originalName: 
+    pivot: {x: -0.6923078, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 217
+      width: 52
+      height: 44
+    spriteID: 3b3a46715af6e484e859507e8df44fff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 217}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_8"
+    originalName: 
+    pivot: {x: -0.63461524, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 217
+      width: 52
+      height: 44
+    spriteID: b6c62bc4b5ac8fc49b83ca7e56843f38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 217}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_9"
+    originalName: 
+    pivot: {x: -0.54716974, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 454
+      y: 114
+      width: 53
+      height: 44
+    spriteID: 432f9923b0716844c920a91e4bcdbeaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 454, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_10"
+    originalName: 
+    pivot: {x: -0.45283014, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 217
+      width: 53
+      height: 44
+    spriteID: 699a3d287a3b29545b46628d1f24ea56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 217}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_11"
+    originalName: 
+    pivot: {x: -0.36538455, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 245
+      y: 217
+      width: 52
+      height: 44
+    spriteID: 58a965052ea420e4f8894a233066f2f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 245, y: 217}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_12"
+    originalName: 
+    pivot: {x: -0.24999985, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 305
+      y: 217
+      width: 52
+      height: 44
+    spriteID: 6e2291e3382cc4447b3cb53431aff9ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 305, y: 217}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_13"
+    originalName: 
+    pivot: {x: -0.09259259, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 62
+      width: 54
+      height: 44
+    spriteID: 71342f8b596f1bb40a4872a188e8cd33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 62}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_14"
+    originalName: 
+    pivot: {x: -0.018181888, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 62
+      width: 55
+      height: 44
+    spriteID: 5e8841018d034d04792c6d8934ec4063
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 62}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_15"
+    originalName: 
+    pivot: {x: 0.035714254, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 62
+      width: 56
+      height: 44
+    spriteID: 836a7b03edac75b40aa6284f3e275b43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 208, y: 62}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_16"
+    originalName: 
+    pivot: {x: 0.13333337, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 4
+      width: 60
+      height: 44
+    spriteID: 9d3532c5141e3244fb212a658bd28aaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 336, y: 4}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_17"
+    originalName: 
+    pivot: {x: 0.19672129, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 4
+      width: 61
+      height: 44
+    spriteID: 57f283a0eeb4bc945a86cb36c1cce8cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 4}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_18"
+    originalName: 
+    pivot: {x: 0.24590164, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 4
+      width: 61
+      height: 44
+    spriteID: d5a293e8d352bd54583d4dd9087a68e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 4}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_19"
+    originalName: 
+    pivot: {x: 0.32786885, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 4
+      width: 61
+      height: 44
+    spriteID: 51b74f82058be1b44ba1219b2d19ad6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 4}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_20"
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 397
+      y: 62
+      width: 60
+      height: 39
+    spriteID: 6f89c40fc24108749af21171d622bd92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 397, y: 62}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_21"
+    originalName: 
+    pivot: {x: 0.5, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 4
+      width: 60
+      height: 44
+    spriteID: 5670f1470b39e0347b587e8a66aa3871
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 4}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_22"
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 114
+      width: 60
+      height: 39
+    spriteID: a20ee322fea63984cab80765f2fcb720
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_23"
+    originalName: 
+    pivot: {x: 0.7833333, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 60
+      height: 44
+    spriteID: 5dc52dcd890b05249aa9a48a55722b8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_24"
+    originalName: 
+    pivot: {x: 0.8833334, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 62
+      width: 60
+      height: 44
+    spriteID: 2e14314c1ab6e0142aab9e4e218a4043
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 62}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_25"
+    originalName: 
+    pivot: {x: 0.9833333, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 250
+      y: 114
+      width: 60
+      height: 39
+    spriteID: 2b16b9742ff9aa143b8a5ba1cb323394
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 250, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_26"
+    originalName: 
+    pivot: {x: 1.0333333, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 318
+      y: 114
+      width: 60
+      height: 39
+    spriteID: dd23af23db1804a4a85d4bb769d3a48f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 318, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_27"
+    originalName: 
+    pivot: {x: 1.1166667, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 386
+      y: 114
+      width: 60
+      height: 39
+    spriteID: 6e1c535d6acaa9641af6174a183e2767
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 114}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_28"
+    originalName: 
+    pivot: {x: 1.1833334, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 170
+      width: 60
+      height: 39
+    spriteID: f1cf9270f2e93ef4ea53dadcda4aa626
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 170}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_29"
+    originalName: 
+    pivot: {x: 1.2833333, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 170
+      width: 60
+      height: 39
+    spriteID: 390a25faa349365489ee5a2e094e86f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 170}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_30"
+    originalName: 
+    pivot: {x: 1.3666667, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 170
+      width: 60
+      height: 39
+    spriteID: a0f62ad60f711a1459498f0f408f0ec8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 170}
+  - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_31"
+    originalName: 
+    pivot: {x: 1.45, y: -0.3409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 62
+      width: 60
+      height: 44
+    spriteID: dc1dbc2164901224a995f916f6ce8f21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 62}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1808944247
+    name: "1taklac\u0131-d\xFCz sald\u0131r\u0131"
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_0"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 225
+        y: 15
+        width: 55
+        height: 50
+      spriteId: 05395b4a471ff374a807a1f4f6536445
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_1"
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 224
+        y: 15
+        width: 54
+        height: 49
+      spriteId: 5b42e1f43854a324a8813af1620f7370
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_2"
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 220
+        y: 15
+        width: 52
+        height: 48
+      spriteId: 8ff08255b04cac2469e820cd49a1283b
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_3"
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 215
+        y: 15
+        width: 51
+        height: 47
+      spriteId: b8e472c3c4f91364091f0b07f8f72f6b
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_4"
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 213
+        y: 15
+        width: 51
+        height: 46
+      spriteId: ea4c7dc5c3294974b8298d6ca39f2c46
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_5"
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 205
+        y: 15
+        width: 50
+        height: 45
+      spriteId: ada72b7da41af0647a2b178bfc92b50c
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_6"
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 200
+        y: 15
+        width: 52
+        height: 44
+      spriteId: cc53b60df783319488dec9166a4e962c
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_7"
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 196
+        y: 15
+        width: 52
+        height: 44
+      spriteId: 3b3a46715af6e484e859507e8df44fff
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_8"
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 193
+        y: 15
+        width: 52
+        height: 44
+      spriteId: b6c62bc4b5ac8fc49b83ca7e56843f38
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_9"
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 189
+        y: 15
+        width: 53
+        height: 44
+      spriteId: 432f9923b0716844c920a91e4bcdbeaa
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_10"
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 184
+        y: 15
+        width: 53
+        height: 44
+      spriteId: 699a3d287a3b29545b46628d1f24ea56
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_11"
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 179
+        y: 15
+        width: 52
+        height: 44
+      spriteId: 58a965052ea420e4f8894a233066f2f1
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_12"
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 173
+        y: 15
+        width: 52
+        height: 44
+      spriteId: 6e2291e3382cc4447b3cb53431aff9ce
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_13"
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 15
+        width: 54
+        height: 44
+      spriteId: 71342f8b596f1bb40a4872a188e8cd33
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_14"
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 161
+        y: 15
+        width: 55
+        height: 44
+      spriteId: 5e8841018d034d04792c6d8934ec4063
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_15"
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 158
+        y: 15
+        width: 56
+        height: 44
+      spriteId: 836a7b03edac75b40aa6284f3e275b43
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_16"
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 152
+        y: 15
+        width: 60
+        height: 44
+      spriteId: 9d3532c5141e3244fb212a658bd28aaf
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_17"
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 148
+        y: 15
+        width: 61
+        height: 44
+      spriteId: 57f283a0eeb4bc945a86cb36c1cce8cc
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_18"
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 145
+        y: 15
+        width: 61
+        height: 44
+      spriteId: d5a293e8d352bd54583d4dd9087a68e8
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_19"
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 15
+        width: 61
+        height: 44
+      spriteId: 51b74f82058be1b44ba1219b2d19ad6e
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_20"
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 135
+        y: 15
+        width: 60
+        height: 39
+      spriteId: 6f89c40fc24108749af21171d622bd92
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_21"
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 15
+        width: 60
+        height: 44
+      spriteId: 5670f1470b39e0347b587e8a66aa3871
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_22"
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 15
+        width: 60
+        height: 39
+      spriteId: a20ee322fea63984cab80765f2fcb720
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_23"
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 15
+        width: 60
+        height: 44
+      spriteId: 5dc52dcd890b05249aa9a48a55722b8e
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_24"
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 107
+        y: 15
+        width: 60
+        height: 44
+      spriteId: 2e14314c1ab6e0142aab9e4e218a4043
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_25"
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 15
+        width: 60
+        height: 39
+      spriteId: 2b16b9742ff9aa143b8a5ba1cb323394
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_26"
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 98
+        y: 15
+        width: 60
+        height: 39
+      spriteId: dd23af23db1804a4a85d4bb769d3a48f
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_27"
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 93
+        y: 15
+        width: 60
+        height: 39
+      spriteId: 6e1c535d6acaa9641af6174a183e2767
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_28"
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 15
+        width: 60
+        height: 39
+      spriteId: f1cf9270f2e93ef4ea53dadcda4aa626
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_29"
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 83
+        y: 15
+        width: 60
+        height: 39
+      spriteId: 390a25faa349365489ee5a2e094e86f1
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_30"
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 78
+        y: 15
+        width: 60
+        height: 39
+      spriteId: a0f62ad60f711a1459498f0f408f0ec8
+    - name: "1taklac\u0131-d\xFCz sald\u0131r\u0131_Frame_31"
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 73
+        y: 15
+        width: 60
+        height: 44
+      spriteId: dc1dbc2164901224a995f916f6ce8f21
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 180}

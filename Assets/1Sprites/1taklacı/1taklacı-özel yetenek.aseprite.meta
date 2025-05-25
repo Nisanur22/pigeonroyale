@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: 635916002a0fd8d4280fb3453c637e41
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 24
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638837204947365734
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_0"
+    originalName: 
+    pivot: {x: -1.0597016, y: -0.5522388}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 4
+      width: 67
+      height: 67
+    spriteID: 059e9dd305619404292b166b68f74ac9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 4}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_1"
+    originalName: 
+    pivot: {x: -0.7951808, y: -0.5522388}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 83
+      height: 67
+    spriteID: fc81f187fc225114b9ade9483d82fb40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_2"
+    originalName: 
+    pivot: {x: -0.8333333, y: -0.7916667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 4
+      width: 54
+      height: 48
+    spriteID: 83e44cc174ec50447a85ad1f28c2cc2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 4}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_3"
+    originalName: 
+    pivot: {x: -0.7400002, y: -0.7916667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 128
+      width: 50
+      height: 48
+    spriteID: 8469f000aa679274281104af78a552df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 128}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_4"
+    originalName: 
+    pivot: {x: -0.55102056, y: -0.7916667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 128
+      width: 49
+      height: 48
+    spriteID: ed2afa6ed6d08a9448055e8aaba35327
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 128}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_5"
+    originalName: 
+    pivot: {x: -0.35714287, y: -0.8478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 128
+      width: 42
+      height: 46
+    spriteID: 9acab38048c6a3a469aee465e13087d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 128}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_6"
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.9268293}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 60
+      height: 41
+    spriteID: 6a4982085c182044da827c2f393b1e58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 79}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_7"
+    originalName: 
+    pivot: {x: 0.7291666, y: -0.9268293}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 128
+      width: 48
+      height: 41
+    spriteID: b4141ea0b216a9b4ab548786cfbbeecd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 128}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_8"
+    originalName: 
+    pivot: {x: 1.0697676, y: -0.90243906}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 79
+      width: 43
+      height: 41
+    spriteID: 04c051198c8cccd448e4308d7a70025d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 79}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_9"
+    originalName: 
+    pivot: {x: 1.4634147, y: -0.87804884}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 79
+      width: 41
+      height: 41
+    spriteID: ca65770bb2453614b9c0003ff4b00361
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 79}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_10"
+    originalName: 
+    pivot: {x: 1.5609756, y: -1.5666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 41
+      height: 30
+    spriteID: 08659396a01911f4e859916295b2940d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_11"
+    originalName: 
+    pivot: {x: 1.6341463, y: -1.0588235}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 79
+      width: 41
+      height: 34
+    spriteID: a0861590723feb749b7b76406b6fbb23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 79}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_12"
+    originalName: 
+    pivot: {x: 1.804878, y: -1.5333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 184
+      width: 41
+      height: 30
+    spriteID: 23cea7b80acc7a749afab996855c5540
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 184}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_13"
+    originalName: 
+    pivot: {x: 1.9756099, y: -1.5333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 184
+      width: 41
+      height: 30
+    spriteID: 5391335fbe6b4704a944ab3f9d63ab32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 184}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_14"
+    originalName: 
+    pivot: {x: 2.1463416, y: -1.5333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 184
+      width: 41
+      height: 30
+    spriteID: e176ecd0104da8d4989d92bd2ae0c1f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 184}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_15"
+    originalName: 
+    pivot: {x: 3.7391305, y: -1.6206897}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 79
+      width: 23
+      height: 29
+    spriteID: f29d01a0b2ae37b4180950f35c3f5741
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 79}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_16"
+    originalName: 
+    pivot: {x: 4.521739, y: -2.1363635}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 222
+      width: 23
+      height: 22
+    spriteID: 51fde87c01d63c744936f7ef8fcce436
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 222}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_17"
+    originalName: 
+    pivot: {x: 4.826087, y: -1.6206897}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 128
+      width: 23
+      height: 29
+    spriteID: 3a0e40925c85267439ecd3b159c7fd97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 128}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_18"
+    originalName: 
+    pivot: {x: 5.391304, y: -1.6206897}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 184
+      width: 23
+      height: 29
+    spriteID: bd99fcfc3992036499915bb2e701d16a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 184}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_19"
+    originalName: 
+    pivot: {x: 6.0869565, y: -1.6551726}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 222
+      width: 23
+      height: 29
+    spriteID: 18db375dbc09f9c42b302754bae32233
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 222}
+  - name: "1taklac\u0131-\xF6zel yetenek_Frame_20"
+    originalName: 
+    pivot: {x: 7.4761906, y: -1.6206897}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 231
+      y: 184
+      width: 21
+      height: 29
+    spriteID: ce2223411e1bc23468ca04257618f0db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 231, y: 184}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -301727055
+    name: "1taklac\u0131-\xF6zel yetenek"
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_0"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 231
+        y: 37
+        width: 67
+        height: 67
+      spriteId: 059e9dd305619404292b166b68f74ac9
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_1"
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 226
+        y: 37
+        width: 83
+        height: 67
+      spriteId: fc81f187fc225114b9ade9483d82fb40
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_2"
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 205
+        y: 38
+        width: 54
+        height: 48
+      spriteId: 83e44cc174ec50447a85ad1f28c2cc2b
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_3"
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 197
+        y: 38
+        width: 50
+        height: 48
+      spriteId: 8469f000aa679274281104af78a552df
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_4"
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 187
+        y: 38
+        width: 49
+        height: 48
+      spriteId: ed2afa6ed6d08a9448055e8aaba35327
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_5"
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 39
+        width: 42
+        height: 46
+      spriteId: 9acab38048c6a3a469aee465e13087d4
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_6"
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 38
+        width: 60
+        height: 41
+      spriteId: 6a4982085c182044da827c2f393b1e58
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_7"
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 38
+        width: 48
+        height: 41
+      spriteId: b4141ea0b216a9b4ab548786cfbbeecd
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_8"
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 37
+        width: 43
+        height: 41
+      spriteId: 04c051198c8cccd448e4308d7a70025d
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_9"
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 100
+        y: 36
+        width: 41
+        height: 41
+      spriteId: ca65770bb2453614b9c0003ff4b00361
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_10"
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 47
+        width: 41
+        height: 30
+      spriteId: 08659396a01911f4e859916295b2940d
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_11"
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 93
+        y: 36
+        width: 41
+        height: 34
+      spriteId: a0861590723feb749b7b76406b6fbb23
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_12"
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 46
+        width: 41
+        height: 30
+      spriteId: 23cea7b80acc7a749afab996855c5540
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_13"
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 79
+        y: 46
+        width: 41
+        height: 30
+      spriteId: 5391335fbe6b4704a944ab3f9d63ab32
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_14"
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 46
+        width: 41
+        height: 30
+      spriteId: e176ecd0104da8d4989d92bd2ae0c1f8
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_15"
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 47
+        width: 23
+        height: 29
+      spriteId: f29d01a0b2ae37b4180950f35c3f5741
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_16"
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 56
+        y: 47
+        width: 23
+        height: 22
+      spriteId: 51fde87c01d63c744936f7ef8fcce436
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_17"
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 49
+        y: 47
+        width: 23
+        height: 29
+      spriteId: 3a0e40925c85267439ecd3b159c7fd97
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_18"
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 47
+        width: 23
+        height: 29
+      spriteId: bd99fcfc3992036499915bb2e701d16a
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_19"
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 48
+        width: 23
+        height: 29
+      spriteId: 18db375dbc09f9c42b302754bae32233
+    - name: "1taklac\u0131-\xF6zel yetenek_Frame_20"
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 47
+        width: 21
+        height: 29
+      spriteId: ce2223411e1bc23468ca04257618f0db
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 180}

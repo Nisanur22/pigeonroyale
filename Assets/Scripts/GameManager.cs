@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    public int selectedArenaIndex = 0;
+
     // Oyun durumları
     public enum GameState
     {
@@ -206,4 +208,5 @@ public class GameManager : MonoBehaviour
             SetGameState(GameState.Battle);
         }
     }
-} 
+}
+
