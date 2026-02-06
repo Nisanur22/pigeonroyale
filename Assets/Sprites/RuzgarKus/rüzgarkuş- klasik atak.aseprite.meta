@@ -1,0 +1,1033 @@
+fileFormatVersion: 2
+guid: d7154bee5b61aa344a1aefa69f49b793
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 24
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638837206407914046
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_0"
+    originalName: 
+    pivot: {x: 3.1, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 428
+      width: 40
+      height: 45
+    spriteID: 95e69eb1ff7b63344911c92c2c0802c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 428}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_1"
+    originalName: 
+    pivot: {x: 2.975, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 208
+      width: 40
+      height: 45
+    spriteID: 19244cde10fcd8a4b9e968c3335839e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 208}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_2"
+    originalName: 
+    pivot: {x: 2.875, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 261
+      width: 40
+      height: 45
+    spriteID: b2cbe1dc827444248a21ce95fe8ec84d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 261}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_3"
+    originalName: 
+    pivot: {x: 2.8, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 314
+      width: 40
+      height: 45
+    spriteID: c4ce9ec67537afa41b3d37248f18c402
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 314}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_4"
+    originalName: 
+    pivot: {x: 2.5454545, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 44
+      height: 45
+    spriteID: ff44c4851cebc2440aac67eb1853d63d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_5"
+    originalName: 
+    pivot: {x: 2.4318182, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 57
+      width: 44
+      height: 45
+    spriteID: e9a1732ad9c13ca40880bb78a65103a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 57}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_6"
+    originalName: 
+    pivot: {x: 2.3181818, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 110
+      width: 44
+      height: 45
+    spriteID: a09c707c967e2694d81146c97079e572
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 110}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_7"
+    originalName: 
+    pivot: {x: 2.1818182, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 163
+      width: 44
+      height: 45
+    spriteID: 960f942c325738c4e9b422ac09331637
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 163}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_8"
+    originalName: 
+    pivot: {x: 1.9772727, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 216
+      width: 44
+      height: 45
+    spriteID: 4b01af0eb651c054abc6eecd9d261809
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 216}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_9"
+    originalName: 
+    pivot: {x: 1.7727274, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 269
+      width: 44
+      height: 45
+    spriteID: 697ac54bdb2f5bc4aaaecfb27b1f6d0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 269}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_10"
+    originalName: 
+    pivot: {x: 1.6818181, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 322
+      width: 44
+      height: 45
+    spriteID: cc7f40e648ac3eb4d8af400ea19d1965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 322}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_11"
+    originalName: 
+    pivot: {x: 1.4545454, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 375
+      width: 44
+      height: 45
+    spriteID: 06c5ecf6c406bd744b3be2ec8d00bbb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 375}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_12"
+    originalName: 
+    pivot: {x: 1.3913043, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 4
+      width: 46
+      height: 43
+    spriteID: c05a8893d42af194db6efbf2c44ed6e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 4}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_13"
+    originalName: 
+    pivot: {x: 1.2391304, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 55
+      width: 46
+      height: 43
+    spriteID: 8fc2de4df01ea6c4395de2d1721f7b02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 55}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_14"
+    originalName: 
+    pivot: {x: 1.021739, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 106
+      width: 46
+      height: 43
+    spriteID: b7e49efdd6299b54fa6e1dd25dec493d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 106}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_15"
+    originalName: 
+    pivot: {x: 0.8695652, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 157
+      width: 46
+      height: 43
+    spriteID: ce2649b9e892e9944a3c02a18bd84f27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 157}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_16"
+    originalName: 
+    pivot: {x: 0.70588243, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 4
+      width: 51
+      height: 34
+    spriteID: eb66b5b0ed150e54b858f918f1ccdf9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 4}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_17"
+    originalName: 
+    pivot: {x: 0.62745094, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 46
+      width: 51
+      height: 34
+    spriteID: d02c6ce6eee324146a552a9f2cfca0db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 46}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_18"
+    originalName: 
+    pivot: {x: 0.52941173, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 88
+      width: 51
+      height: 34
+    spriteID: fc232046fff93dd48a45ee8bfb8a53d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 88}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_19"
+    originalName: 
+    pivot: {x: 0.39215687, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 130
+      width: 51
+      height: 34
+    spriteID: aa25c1df5b25f66489a8fbcbd53f8379
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 130}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_20"
+    originalName: 
+    pivot: {x: 0.254902, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 172
+      width: 51
+      height: 34
+    spriteID: f33c2c79514e3ff488b1bd4330f692a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 172}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_21"
+    originalName: 
+    pivot: {x: 0.13725486, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 214
+      width: 51
+      height: 34
+    spriteID: 7af1ec68cd41b9f46b33ed485174e3e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 214}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_22"
+    originalName: 
+    pivot: {x: 0.058823567, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 256
+      width: 51
+      height: 34
+    spriteID: 18e1eadd4b2605146b88c258c0b47884
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 256}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_23"
+    originalName: 
+    pivot: {x: -0.039215837, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 298
+      width: 51
+      height: 34
+    spriteID: cee2b63567c0ced4ebe90ac677d47a0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 298}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_24"
+    originalName: 
+    pivot: {x: -0.0784313, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 340
+      width: 51
+      height: 34
+    spriteID: 5b0b60046bc001f4abe7e86aa41c3b33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 340}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_25"
+    originalName: 
+    pivot: {x: -0.117647134, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 382
+      width: 51
+      height: 34
+    spriteID: 663b61145bae52b4daf6acd65c70eeff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 382}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_26"
+    originalName: 
+    pivot: {x: -0.17647052, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 424
+      width: 51
+      height: 34
+    spriteID: 04d625f7caddcc64fb52828e9a592e8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 424}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_27"
+    originalName: 
+    pivot: {x: -0.21568635, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 466
+      width: 51
+      height: 34
+    spriteID: 5197d1646e0b87b44b248a4a4550ecb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 466}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_28"
+    originalName: 
+    pivot: {x: -0.27450973, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 4
+      width: 51
+      height: 34
+    spriteID: d8cd581fcddbc1644866e0763e104eeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 4}
+  - name: "r\xFCzgarku\u015F- klasik atak_Frame_29"
+    originalName: 
+    pivot: {x: -0.3333335, y: -0.6470588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 46
+      width: 51
+      height: 34
+    spriteID: 96de71b37e2d2694c8a88d151d5d3bc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 46}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 752406756
+    name: "r\xFCzgarku\u015F- klasik atak"
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_0"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 20
+        width: 40
+        height: 45
+      spriteId: 95e69eb1ff7b63344911c92c2c0802c8
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_1"
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 20
+        width: 40
+        height: 45
+      spriteId: 19244cde10fcd8a4b9e968c3335839e5
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_2"
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 45
+        y: 20
+        width: 40
+        height: 45
+      spriteId: b2cbe1dc827444248a21ce95fe8ec84d
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_3"
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 20
+        width: 40
+        height: 45
+      spriteId: c4ce9ec67537afa41b3d37248f18c402
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_4"
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 20
+        width: 44
+        height: 45
+      spriteId: ff44c4851cebc2440aac67eb1853d63d
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_5"
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 53
+        y: 20
+        width: 44
+        height: 45
+      spriteId: e9a1732ad9c13ca40880bb78a65103a5
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_6"
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 20
+        width: 44
+        height: 45
+      spriteId: a09c707c967e2694d81146c97079e572
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_7"
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 64
+        y: 20
+        width: 44
+        height: 45
+      spriteId: 960f942c325738c4e9b422ac09331637
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_8"
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 73
+        y: 20
+        width: 44
+        height: 45
+      spriteId: 4b01af0eb651c054abc6eecd9d261809
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_9"
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 82
+        y: 20
+        width: 44
+        height: 45
+      spriteId: 697ac54bdb2f5bc4aaaecfb27b1f6d0a
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_10"
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 20
+        width: 44
+        height: 45
+      spriteId: cc7f40e648ac3eb4d8af400ea19d1965
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_11"
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 20
+        width: 44
+        height: 45
+      spriteId: 06c5ecf6c406bd744b3be2ec8d00bbb5
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_12"
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 20
+        width: 46
+        height: 43
+      spriteId: c05a8893d42af194db6efbf2c44ed6e8
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_13"
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 103
+        y: 20
+        width: 46
+        height: 43
+      spriteId: 8fc2de4df01ea6c4395de2d1721f7b02
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_14"
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 20
+        width: 46
+        height: 43
+      spriteId: b7e49efdd6299b54fa6e1dd25dec493d
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_15"
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 20
+        width: 46
+        height: 43
+      spriteId: ce2649b9e892e9944a3c02a18bd84f27
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_16"
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 22
+        width: 51
+        height: 34
+      spriteId: eb66b5b0ed150e54b858f918f1ccdf9a
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_17"
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 128
+        y: 22
+        width: 51
+        height: 34
+      spriteId: d02c6ce6eee324146a552a9f2cfca0db
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_18"
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 133
+        y: 22
+        width: 51
+        height: 34
+      spriteId: fc232046fff93dd48a45ee8bfb8a53d4
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_19"
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 22
+        width: 51
+        height: 34
+      spriteId: aa25c1df5b25f66489a8fbcbd53f8379
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_20"
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 147
+        y: 22
+        width: 51
+        height: 34
+      spriteId: f33c2c79514e3ff488b1bd4330f692a7
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_21"
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 153
+        y: 22
+        width: 51
+        height: 34
+      spriteId: 7af1ec68cd41b9f46b33ed485174e3e5
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_22"
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 157
+        y: 22
+        width: 51
+        height: 34
+      spriteId: 18e1eadd4b2605146b88c258c0b47884
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_23"
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 162
+        y: 22
+        width: 51
+        height: 34
+      spriteId: cee2b63567c0ced4ebe90ac677d47a0f
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_24"
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 164
+        y: 22
+        width: 51
+        height: 34
+      spriteId: 5b0b60046bc001f4abe7e86aa41c3b33
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_25"
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 166
+        y: 22
+        width: 51
+        height: 34
+      spriteId: 663b61145bae52b4daf6acd65c70eeff
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_26"
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 169
+        y: 22
+        width: 51
+        height: 34
+      spriteId: 04d625f7caddcc64fb52828e9a592e8a
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_27"
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 171
+        y: 22
+        width: 51
+        height: 34
+      spriteId: 5197d1646e0b87b44b248a4a4550ecb5
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_28"
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 174
+        y: 22
+        width: 51
+        height: 34
+      spriteId: d8cd581fcddbc1644866e0763e104eeb
+    - name: "r\xFCzgarku\u015F- klasik atak_Frame_29"
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 177
+        y: 22
+        width: 51
+        height: 34
+      spriteId: 96de71b37e2d2694c8a88d151d5d3bc1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 180}

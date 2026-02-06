@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: bf4da3db7bdef4d498484dd7c3206f9c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 24
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638837239480600846
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: "1sk\u0131ll.posta_Frame_0"
+    originalName: 
+    pivot: {x: -1.5227275, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 44
+      height: 46
+    spriteID: 6d4921ae9658f6e4b8020c78ebbcd93c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 112}
+  - name: "1sk\u0131ll.posta_Frame_1"
+    originalName: 
+    pivot: {x: -1.4565219, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 46
+      height: 46
+    spriteID: 094a43a79a533704e8c17483bd8e8c26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: "1sk\u0131ll.posta_Frame_2"
+    originalName: 
+    pivot: {x: -1.3617021, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 58
+      width: 47
+      height: 46
+    spriteID: 3cac04d397bdc0b478e3bb1dd371e503
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 58}
+  - name: "1sk\u0131ll.posta_Frame_3"
+    originalName: 
+    pivot: {x: 0.2237762, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 58
+      width: 143
+      height: 46
+    spriteID: 8f80364176f0ea84b9a448ec7a8bc726
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 58}
+  - name: "1sk\u0131ll.posta_Frame_4"
+    originalName: 
+    pivot: {x: 0.50224215, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 223
+      height: 46
+    spriteID: 30128cac7151fee44926e608f30c56e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: "1sk\u0131ll.posta_Frame_5"
+    originalName: 
+    pivot: {x: -1.4565219, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 112
+      width: 46
+      height: 46
+    spriteID: 7f568ceb7eb6e3343b22d516f290187f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 112}
+  - name: "1sk\u0131ll.posta_Frame_6"
+    originalName: 
+    pivot: {x: -1.5227275, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 112
+      width: 44
+      height: 46
+    spriteID: ef3d192727e34bf458a692ee7c060204
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 112}
+  - name: "1sk\u0131ll.posta_Frame_7"
+    originalName: 
+    pivot: {x: -1.5227275, y: -0.8043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 166
+      width: 44
+      height: 46
+    spriteID: 43e0c5f08bb6de94ea97f5b9ad2edb8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 166}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 882792055
+    name: "1sk\u0131ll.posta"
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "1sk\u0131ll.posta_Frame_0"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 227
+        y: 37
+        width: 44
+        height: 46
+      spriteId: 6d4921ae9658f6e4b8020c78ebbcd93c
+    - name: "1sk\u0131ll.posta_Frame_1"
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 227
+        y: 37
+        width: 46
+        height: 46
+      spriteId: 094a43a79a533704e8c17483bd8e8c26
+    - name: "1sk\u0131ll.posta_Frame_2"
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 224
+        y: 37
+        width: 47
+        height: 46
+      spriteId: 3cac04d397bdc0b478e3bb1dd371e503
+    - name: "1sk\u0131ll.posta_Frame_3"
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 128
+        y: 37
+        width: 143
+        height: 46
+      spriteId: 8f80364176f0ea84b9a448ec7a8bc726
+    - name: "1sk\u0131ll.posta_Frame_4"
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 37
+        width: 223
+        height: 46
+      spriteId: 30128cac7151fee44926e608f30c56e6
+    - name: "1sk\u0131ll.posta_Frame_5"
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 227
+        y: 37
+        width: 46
+        height: 46
+      spriteId: 7f568ceb7eb6e3343b22d516f290187f
+    - name: "1sk\u0131ll.posta_Frame_6"
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 227
+        y: 37
+        width: 44
+        height: 46
+      spriteId: ef3d192727e34bf458a692ee7c060204
+    - name: "1sk\u0131ll.posta_Frame_7"
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 227
+        y: 37
+        width: 44
+        height: 46
+      spriteId: 43e0c5f08bb6de94ea97f5b9ad2edb8b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 180}

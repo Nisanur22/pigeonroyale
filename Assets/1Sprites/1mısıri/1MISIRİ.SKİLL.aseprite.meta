@@ -1,0 +1,569 @@
+fileFormatVersion: 2
+guid: cd2a43dcdcc302842bee43bb600de67d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 20
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638837239358364329
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_0"
+    originalName: 
+    pivot: {x: -2.7837834, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 395
+      width: 37
+      height: 43
+    spriteID: 4dad110a709df0943be7ae736a42ce0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 395}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_1"
+    originalName: 
+    pivot: {x: -2.4146342, y: -0.3508772}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 41
+      height: 57
+    spriteID: d8033e1dfce57694d87d91a3a2e617ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -7, y: 201}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_2"
+    originalName: 
+    pivot: {x: -2.6842108, y: -0.33898306}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 267
+      width: 38
+      height: 59
+    spriteID: 80a4ba3d3500f664c8c479411c2db726
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -10, y: 266}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_3"
+    originalName: 
+    pivot: {x: -2.6842108, y: -0.3773585}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 334
+      width: 38
+      height: 53
+    spriteID: e3e76f8bac2364d4fb3c8e61929c9959
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -10, y: 333}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_4"
+    originalName: 
+    pivot: {x: -3.2424245, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 305
+      width: 33
+      height: 43
+    spriteID: 0011257e3bd84984bbef456167ae3f3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 304}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_5"
+    originalName: 
+    pivot: {x: -2.8888888, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 446
+      width: 36
+      height: 43
+    spriteID: 506170557240d414798df6d56726c57e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 446}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_6"
+    originalName: 
+    pivot: {x: -2.9714286, y: -0.45454544}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 202
+      width: 35
+      height: 44
+    spriteID: 3753cff35e6db3547b8dfc40e2933c8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 202}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_7"
+    originalName: 
+    pivot: {x: -3.0294116, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 254
+      width: 34
+      height: 43
+    spriteID: 9ba962fd6c7580049a5de2bdf1e8a2f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 254}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_8"
+    originalName: 
+    pivot: {x: -0.5393258, y: -0.47619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 152
+      width: 89
+      height: 42
+    spriteID: 99741a139b68927428c4f244b83bcd51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 152}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_9"
+    originalName: 
+    pivot: {x: 0, y: -0.4878049}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 103
+      width: 137
+      height: 41
+    spriteID: 9ac1a080842ecec4aa5d8bd0c4c733e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 103}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_10"
+    originalName: 
+    pivot: {x: 0.25945947, y: -0.4878049}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 54
+      width: 185
+      height: 41
+    spriteID: d4fe45a251daa8a4d8ae73e7c5832c78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 54}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_11"
+    originalName: 
+    pivot: {x: 0.4120172, y: -0.47619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 233
+      height: 42
+    spriteID: 0442ed799ebd951448b12cfed75058d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_12"
+    originalName: 
+    pivot: {x: -3.1515152, y: -0.47619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 152
+      width: 33
+      height: 42
+    spriteID: f554214fbe334164395c89c808c6ebc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 152}
+  - name: "1MISIR\u0130.SK\u0130LL_Frame_13"
+    originalName: 
+    pivot: {x: -3.1515152, y: -0.4651163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 356
+      width: 33
+      height: 43
+    spriteID: be9d629ca3c7fb347a2a82937db7eb66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 356}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -170358705
+    name: "1MISIR\u0130.SK\u0130LL"
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_0"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 263
+        y: 20
+        width: 37
+        height: 43
+      spriteId: 4dad110a709df0943be7ae736a42ce0e
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_1"
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 248
+        y: 19
+        width: 64
+        height: 64
+      spriteId: d8033e1dfce57694d87d91a3a2e617ce
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_2"
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 248
+        y: 19
+        width: 64
+        height: 64
+      spriteId: 80a4ba3d3500f664c8c479411c2db726
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_3"
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 248
+        y: 19
+        width: 64
+        height: 64
+      spriteId: e3e76f8bac2364d4fb3c8e61929c9959
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_4"
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 248
+        y: 19
+        width: 64
+        height: 64
+      spriteId: 0011257e3bd84984bbef456167ae3f3d
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_5"
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 264
+        y: 20
+        width: 36
+        height: 43
+      spriteId: 506170557240d414798df6d56726c57e
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_6"
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 264
+        y: 20
+        width: 35
+        height: 44
+      spriteId: 3753cff35e6db3547b8dfc40e2933c8d
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_7"
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 263
+        y: 20
+        width: 34
+        height: 43
+      spriteId: 9ba962fd6c7580049a5de2bdf1e8a2f4
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_8"
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 208
+        y: 20
+        width: 89
+        height: 42
+      spriteId: 99741a139b68927428c4f244b83bcd51
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_9"
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 160
+        y: 20
+        width: 137
+        height: 41
+      spriteId: 9ac1a080842ecec4aa5d8bd0c4c733e1
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_10"
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 112
+        y: 20
+        width: 185
+        height: 41
+      spriteId: d4fe45a251daa8a4d8ae73e7c5832c78
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_11"
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 64
+        y: 20
+        width: 233
+        height: 42
+      spriteId: 0442ed799ebd951448b12cfed75058d8
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_12"
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 264
+        y: 20
+        width: 33
+        height: 42
+      spriteId: f554214fbe334164395c89c808c6ebc2
+    - name: "1MISIR\u0130.SK\u0130LL_Frame_13"
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 264
+        y: 20
+        width: 33
+        height: 43
+      spriteId: be9d629ca3c7fb347a2a82937db7eb66
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 180}
